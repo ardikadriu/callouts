@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: rgb(129, 129, 129);
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 349px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  margin: 0;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
